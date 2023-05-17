@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  background-color: #ffff;
+  height: 55%;
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 16px 0px;
+}
+.heading {
+  color: #0b69ff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.description {
+  font-size: 18px;
+  text-align: center;
+}
+.btn {
+  background-color: #0b69ff;
+  color: #ffff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+.countValue {
+  color: #0b69ff;
+  font-weight: 770px;
+  font-size: 44px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+  .card-container {
+    width: 35%;
+    max-width: 440px;
+  }
+  .countValue {
+    font-size: 52px;
+  }
+}
